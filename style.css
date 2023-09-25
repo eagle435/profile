@@ -222,7 +222,7 @@ font-style: italic;
 @media (max-width:650px){
     body{
         max-width: 100%;
-        overflow: hidden;
+       overflow-x: hidden;
         font-size: 12px;
     }
     .main-content h2{
@@ -233,7 +233,7 @@ font-style: italic;
     }
     .main{
         background-size: cover;
-        max-width: 100%;
+        width: 600px;
     }
     header{
         max-width: 100%;
@@ -263,11 +263,12 @@ font-style: italic;
 body{
     font: 10px;
     max-width: 100%;
-    overflow: hidden;
+  overflow-x: hidden;
 }
 .main{
     background-size: cover;
-    max-width: 100%;
+  
+    width: 400px;
 }
 header{
     max-width: 100%;
