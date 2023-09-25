@@ -221,6 +221,8 @@ font-style: italic;
 }
 @media (max-width:650px){
     body{
+        max-width: 100%;
+        overflow: hidden;
         font-size: 12px;
     }
     .main-content h2{
@@ -229,9 +231,64 @@ font-style: italic;
     .main-content h3{
         font-size: 1.4em;
     }
+    .main{
+        background-size: cover;
+        max-width: 100%;
+    }
+    header{
+        max-width: 100%;
+        padding: 10px 14px;
+    }
+    .all{
+        background-color: gainsboro;
+        height: 700px;
+        width: 100%
+     }
+     .me{
+        width: 270px;
+        height: 50px;
+        background-color: orangered;
+        border-radius: 15px;
+    
+     justify-content: center;
+     display: flex;
+     margin-top: 20px;
+    
+     
+    }
+
+
 }
 @media (max-width:300px){
 body{
     font: 10px;
+    max-width: 100%;
+    overflow: hidden;
 }
+.main{
+    background-size: cover;
+    max-width: 100%;
+}
+header{
+    max-width: 100%;
+    padding: 10px 10px;
+}
+.all{
+    background-color: gainsboro;
+    height: 700px;
+    width: 100%
+ }
+ .me{
+    width: 200px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 15px;
+
+ justify-content: center;
+ display: flex;
+ margin-top: 20px;
+
+ 
+}
+
 }
