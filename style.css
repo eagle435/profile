@@ -274,9 +274,10 @@ body{
   
 }
 .main{
-    background-size: cover;
-  max-width: 100%;
-    width: 400px;
+    background-image: url(html.jpg);
+    max-width: 100%;
+    width: 300px;
+    height: 500px;
 }
 header{
     max-width: 100%;
